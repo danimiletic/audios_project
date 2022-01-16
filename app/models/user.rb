@@ -2,6 +2,8 @@
 
 class User < ActiveRecord::Base
   extend Devise::Models
+
+  has_many :platforms, dependent: :destroy 
   
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable

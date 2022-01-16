@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  duration: 1.5
+  released: 2022-01-15 15:29:31
+  artist: one
+
+two:
+  name: MyString
+  image: MyString
+  duration: 1.5
+  released: 2022-01-15 15:29:31
+  artist: two
